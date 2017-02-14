@@ -81,6 +81,7 @@ function init() {
                },
        dataType: "json"
      });
+
  }
 
 /* Google API: Loads the Feed Reader API and defines what function
@@ -131,4 +132,5 @@ $(function() {
     menuIcon.on('click', function() {
         $('body').toggleClass('menu-hidden');
     });
+    
 }());
